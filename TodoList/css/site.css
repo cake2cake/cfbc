@@ -1,0 +1,45 @@
+body {
+    box-sizing: border-box;
+    background-image: linear-gradient(45deg, pink, purple,blue,red);
+    color: white;
+    background-repeat: no-repeat;
+    background-size:contain;
+    
+}
+
+.taskContainer {
+    
+    border: solid .3em #ffc107;
+    border-radius: .5em;    
+    flex: 0 0 30%;
+    height: 70vh;
+    margin-top:  1em;
+    overflow: auto;
+
+}
+
+
+#taskItems {
+    overflow: hidden;
+    position: relative;
+}
+
+#taskItems .scrollbox {
+    height: 100%;
+    overflow: auto;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;    
+}
+
+.item {
+    border: solid .2em orange;    
+    background:purple;
+    font-weight: 700;
+    color: #212121;    
+    margin: .4em;
+    padding: .4em;
+}
