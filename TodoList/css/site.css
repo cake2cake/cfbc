@@ -35,11 +35,10 @@ body {
     padding: 0;    
 }
 
-.item {
-    border: solid .2em orange;    
-    background:purple;
+.item {    
+    background:lightgray;
     font-weight: 700;
     color: #212121;    
-    margin: .4em;
+    margin: .24em .4em ;
     padding: .4em;
 }
