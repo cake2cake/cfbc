@@ -14,20 +14,24 @@
 </head>
 
 <body>
-       <div class="container">
-           <h1 class="mt-5">Basic Template </h1>
-           <p class="lead">Simple template to start your design with</p>
-           <div class="container taskContainer off-bottom mt-5" id="taskItems">
-            <div class="scrollbox">
-                <ul id="list" class="list list-group">                    
-                </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col col-lg-6 col-md-12">
+                <img src="img/ToDoList.png" alt="To do list logo" srcset="">
+                <button type="button" onclick="addTask()" class="btn btn-primary mt-2">Add Task</button>
             </div>
-       </div>
-            <button onclick="addTask()" class="btn btn-primary mt-2">Add Task</button>                 
-       </div>
+            <div class="col col-lg-6  col-md-12">
+                <div class="taskContainer off-bottom mt-5" id="taskItems">
+                    <div class="scrollbox">
+                        <ul id="list" class="list list-group"></ul>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </div>
 
-       
-       
+
+
 
     <!-- Bootstrap JS -->
     <script src="js/site.js" />
