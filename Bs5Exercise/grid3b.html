@@ -18,7 +18,7 @@
 
 <body class="d-flex flex-column h-100 ">
 
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
+<nav class="navbar navbar-expand-md navbar-dark bg-primary">
     <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="img/bslogo.svg" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -37,7 +37,7 @@
                     <a class="nav-link" href="grid2.html">Grid 2</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="grid3.html">Grid 3</a>
+                    <a class="nav-link active" aria-current="page" href="grid3.html">Grid 3</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="grid4.html">Grid 4</a>
@@ -52,7 +52,7 @@
                     <a class="nav-link" href="grid7.html">Grid 7</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="grid8.html">Grid 8</a>
+                    <a class="nav-link" href="grid8.html">Grid 8</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="grid9.html">Grid 9</a>
@@ -64,32 +64,54 @@
 </nav>
 
     <main class="flex-shrink-0">
-       <div class="container pt-5 min-vh-100">
-           <div class="row mt-4 h-100">
-               <div class="col-12 h-50">
-                    <div class="sidebar rounded-3 p-3 h-75 shadow text-primary">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid praesentium omnis atque maiores a ut tempore corporis fugit, ipsum ducimus? Velit blanditiis natus, repudiandae nobis doloribus illo adipisci officiis quos.
+       <div class="container h-100 ">
+           
+                <ul class="nav nav-pills my-1">
+                    <li class="nav-item">
+                        <a href="grid3.html" class="nav-link ">Grid 3</a>                        
+                    </li>                        
+                    <li class="nav-item">
+                        <a href="grid3b.html" class="nav-link active">Grid 3B</a>                        
+                    </li>                                        
+                </ul>
+           
+            <div class="row h-100 border-top border-bottom border-secondary">
+                <div class="col-7  m-3">
+                    <div class="content h-100 p-3">
+                        <h3>Content</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas sint facere expedita non! Quibusdam ipsa officiis ad alias adipisci qui consectetur magnam, corporis error culpa accusamus, quod molestias repellendus similique.
+                        Vitae eaque saepe error quam quisquam optio dolore repudiandae! Placeat praesentium dignissimos perferendis repellat qui tempora vitae aliquam inventore voluptatum quidem? Optio voluptatibus reprehenderit quod laboriosam obcaecati architecto ullam exercitationem.
+                        Nesciunt ipsa, accusantium mollitia nisi, voluptatum veniam, dolorem laboriosam exercitationem quaerat dolorum commodi rerum. Quos porro consequatur est atque earum enim doloremque quis aspernatur consequuntur, adipisci nostrum laboriosam recusandae iusto!</p>
+
                     </div>
-               </div>
-               <div class="col-6 col-md-3">
-                   <div class="sidebar rounded-3 p-3 overflow-auto shadow text-truncate text-black-50">
-                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto esse eligendi iure reiciendis recusandae aspernatur ipsam autem, magnam voluptatibus itaque, ducimus dolor assumenda mollitia voluptatem libero ut quo eaque amet?
-                       
-                   </div>
-               </div>
-               <div class="col-6 col-md-3">
-                <div class="sidebar rounded-3 p-3 overflow-auto shadow"></div>
-            </div>
-            <div class="col-6 col-md-3">
-                <div class="sidebar rounded-3 p-3 overflow-auto shadow"></div>
-            </div>
-            <div class="col-6 col-md-3">
-                <div class="content rounded-3 p-3 overflow-auto shadow"></div>
-            </div>
-                                
+                </div>
+                <!-- sidebar column -->
+                <div class="col-4 m-3 d-flex flex-column">                    
+                    <form class="input-group mb-3">
+                        <input class="form-control" type="search" name="search" id="search" placeholder="search...">
+                        <button class="btn btn-outline-secondary" type="submit">search</button>
+                    </form>                    
+                    <div class="border border-warning p-3" >
+                        <h4>Related articles</h4>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Article 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Article 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Article 3</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>       
        </div>
     </main>
-    <footer class="footer mt-auto py-0 bg-primary">
+
+    <footer class="footer mt-auto py-1 bg-primary">
         <div class="container-fluid text-center">
             <span class="text-white">Place sticky footer content here.</span>
         </div>

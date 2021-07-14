@@ -10,6 +10,16 @@ body {
     margin-bottom: 60px;
 }
 
+.contact-bg {
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.vh-90 {
+    min-height: 80vh;
+}
 .homeBgImg {
     background: url(/Bs5Exercise/img/GridBG.png);
     width: 100%;
@@ -39,6 +49,8 @@ body {
 
 body>.container {
     padding: 60px 15px 0px;
+    margin-bottom: 60px;
+    margin-top: 60px;
     border: solid;
 }
 
